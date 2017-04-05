@@ -2,7 +2,7 @@
 # Workflow list definition
 # This list describes the order that the Jobs execute. The "main" job is always
 # executed first, followed in order of the Jobs listed in this Workflow block
-platform: java
+platform: nodejs_lib@2
 workflow:
   # "second_job" is the name of the Job that runs after "main"
   - second_job
